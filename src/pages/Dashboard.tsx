@@ -104,7 +104,7 @@ const Dashboard = () => {
                 outerRadius={80}
                 label
               >
-                {data.map((entry, index) => (
+                {data.map((_, index) => (
                   <Cell
                     key={`cell-${index}`}
                     fill={COLORS[index % COLORS.length]}
